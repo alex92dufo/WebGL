@@ -1,0 +1,16 @@
+/**
+ * UdeM IFT 3355, H20
+ * TP 3 Template
+ * Mise à jour par: Alexandre Dufour (p1054564)
+ */
+varying vec4 texCoord;
+
+void main() {
+	
+	//ADJUST THIS FILE TO SEND PROPER DATA TO THE FRAGMENT SHADER
+
+    texCoord = vec4(position, 1.0);
+
+    // Multiply each vertex by the model-view matrix and the projection matrix to get final vertex position
+    gl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.0);
+}
