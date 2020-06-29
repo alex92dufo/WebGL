@@ -1,0 +1,9 @@
+﻿cl : ligne de commande warning D9035: l'option 'Gm' est déconseillée et sera supprimée dans une version ultérieure
+  raytracer.cpp
+C:\Users\Utilisateur\Desktop\a4\image.hpp(72,7): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Utilisateur\Desktop\a4\raytracer.cpp(172,20): warning C4018: '<' : incompatibilité signed/unsigned
+C:\Users\Utilisateur\Desktop\a4\raytracer.cpp(199,12): warning C4244: 'initialisation' : conversion de 'double' en 'float', perte possible de données
+C:\Users\Utilisateur\Desktop\a4\raytracer.cpp(256,21): warning C4018: '<' : incompatibilité signed/unsigned
+C:\Users\Utilisateur\Desktop\a4\raytracer.cpp(265,16): warning C4244: 'initialisation' : conversion de 'double' en 'float', perte possible de données
+C:\Users\Utilisateur\Desktop\a4\raytracer.cpp(302,129): warning C4244: 'argument' : conversion de 'const double' en 'const float', perte possible de données
+  a4.vcxproj -> C:\Users\Utilisateur\Desktop\a4\a4.exe
